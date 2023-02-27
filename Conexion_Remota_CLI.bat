@@ -13,12 +13,12 @@ echo. ****************************************************************
 :inicio
 
 echo.
-REM set usuario= dase1180
-REM set clave= Febrero2023*
+REM set usuario= USUARIO
+REM set clave= CONTRASEÑA
 set /p equipo= "Escriba el nombre del equipo: "
 
 
-REM .\PSTools\PsExec64.exe \\%equipo% -u domcoomeva\%usuario% -p %clave% -s cmd
+REM .\PSTools\PsExec64.exe \\%equipo% -u DOMINIO\%usuario% -p %clave% -s cmd
 
 .\PSTools\PsExec64.exe \\%equipo% -s cmd
 
