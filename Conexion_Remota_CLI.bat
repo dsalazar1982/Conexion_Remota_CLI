@@ -17,12 +17,8 @@ REM set usuario= USUARIO
 REM set clave= CONTRASEÑA
 set /p equipo= "Escriba el nombre del equipo: "
 
-
 REM .\PSTools\PsExec64.exe \\%equipo% -u DOMINIO\%usuario% -p %clave% -s cmd
-
 .\PSTools\PsExec64.exe \\%equipo% -s cmd
 
-
-
 pause
-rem exit
+REM exit
